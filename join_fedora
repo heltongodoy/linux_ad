@@ -1,0 +1,3 @@
+sudo dnf -y install realmd sssd oddjob oddjob-mkhomedir adcli samba-common-tools
+sudo realm discover DOMINIO.COM
+sudo realm join DOMINIO.COM --user=user.admin --computer-ou="OU=Computadores,DC=DOMINIO,DC=com"
